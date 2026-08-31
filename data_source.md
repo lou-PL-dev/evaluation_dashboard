@@ -1,0 +1,3 @@
+# Data Source
+
+I generated sample evaluation data using the Python script provided in the lab (Option B), since I didn't have a formatted dataset from a previous lab ready to reuse. The script (`generate_evaluation_data.py`) produces `evaluation_data_clean.csv`: 4,489 evaluation records spanning 90 days (2026-06-02 to 2026-08-30), covering 5 categories (reasoning, knowledge, code, instruction_following, tool_calling) and 4 model versions (gpt-4, gpt-4-turbo, gpt-3.5-turbo, claude-3-opus), with scores on a 0-100 scale. Category-specific score distributions were built into the generator (e.g. instruction_following skews high, reasoning skews low) so the dashboard has realistic variation to visualize.
